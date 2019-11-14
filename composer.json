@@ -11,6 +11,11 @@
             "email": "chichumeng@foxmail.com"
         }
     ],
+    "autoload":{
+        "psr-4":{
+            "Chichumeng\\":"src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
