@@ -1,0 +1,21 @@
+{
+    "name": "chichumeng/laravel-oss",
+    "description": "laravel oss",
+    "require": {
+        "aliyuncs/oss-sdk-php": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chichumeng",
+            "email": "chichumeng@foxmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chichumeng\\OssServiceProvider"
+            ]
+        }
+    }
+}
